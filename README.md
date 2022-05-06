@@ -102,8 +102,34 @@ Unfortunately we do not have any in our example regex for emails so we won't be 
 
 ### Flags
 
+You’re starting to see that regular expressions are powerful patterns that provide a way to search and replace. Regular expressions may have flags that affect the search and as of right now there are only 6 of them in JavaScript:
+```
+i
+g
+m
+s
+u
+y
+```
+As you can see we don't have any flags in our example regex for emails so we won't be going into great detail but I once again encourage you use your GoogleFu!
+
 ### Character Escapes
+
+Let’s say we want to find something like a dot. Not “any character”, but just a dot. To use a special character as a regular one, prepend it with a backslash like so:
+```
+\ .
+```
+That’s what we call “escaping a character”. It’s pretty simple right? 
+ 
+Not all code has to be difficult and as time goes on you will begin to understand and easily remember concepts to make your life a little easier but always remember your greatest tool…
+GoogleFu - The art of googling
+
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I have created this walkthrough to help fellow junior developers as part of one the many Challenges given at the UA Fullstack bootcamp.
+
+Drew Zinck II
+[GitHub](https://github.com/dlzinck)
+[LinkedIn](https://www.linkedin.com/in/drewzinckii/)
+[Contact Me](mailto:drew.zshell@gmail.com)
