@@ -1,4 +1,4 @@
-# RegEx-Mobile
+# RegEx-Email
 
 Introductory paragraph (replace this with your text)
 
