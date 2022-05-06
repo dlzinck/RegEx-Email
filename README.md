@@ -86,7 +86,19 @@ There are many ways to use bracket expressions and I encourage you to try and un
 
 ### Character Classes
 
+In our email regex we have:
+```
+\d
+```
+as our character class. It will match a single letter character from a-z after the @ sign in the email address. Ensuring that a letter is matched after the @ in the email and not a number or special character.
+
+
 ### The OR Operator
+
+The OR operator otherwise known as Alteration is basically just “OR” for regex. It is denoted as a vertical line character ```|``` .
+ 
+Unfortunately we do not have any in our example regex for emails so we won't be going over it but I encourage you to do your research too!
+
 
 ### Flags
 
