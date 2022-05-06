@@ -73,6 +73,17 @@ In order to move on we have to make sure we are following the guidelines of the 
 
 ### Bracket Expressions
 
+In this part we will be looking at one group of symbols in depth, the all powerful brackets!
+```
+[ ] { } ( )
+```
+Brackets [ ] indicate a set of characters to match. Any individual character between the brackets will match, and you can also use a hyphen to define a set!
+Curly braces { } are used to specify an exact amount of things to match. They are used after an expression and will only match 'na' exactly twice!
+Parentheses ( ) represent remembered matches. This is especially useful for find-and-replace operations or any time you need to do something with only part of the match.
+
+There are many ways to use bracket expressions and I encourage you to try and understand their concepts! 
+
+
 ### Character Classes
 
 ### The OR Operator
